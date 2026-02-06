@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    max-width: 70ch;
+}
+
+/* ************************* your code goes here ************************* */
+
+/* Typescale to use for font sizing:
+63.15px  47.37px  35.54px  26.66px  20px(base) converted to rems */
